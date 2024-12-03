@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Final.Checkout"
+             Title="Checkout">
+    <VerticalStackLayout>
+        <Label 
+            Text="Does everything look correct?"
+            FontSize="45"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button x:Name="BackToHome" Text="Back to Home" BackgroundColor="Orange" TextColor="Black" FontAttributes="Bold"
+        Clicked="backToHomeButton_Clicked" WidthRequest="300" VerticalOptions="End"/>
+    </VerticalStackLayout>
+</ContentPage>

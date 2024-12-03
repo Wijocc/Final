@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Final.SubPagesCooked.Texas"
+             >
+    <VerticalStackLayout>
+        <Label 
+            Text="Texas Roll"
+            FontSize="40"
+            FontAttributes="Bold"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            Text="Description"
+            VerticalOptions="Center"
+            HorizontalTextAlignment="Start"
+            FontSize="25"
+            FontAttributes="Bold"/>
+        <Label
+            Text="Salmon, tuna, yellowtail and avocado - deep fried"
+            VerticalOptions="StartAndExpand"
+            HorizontalTextAlignment="Start"
+            FontAttributes="Italic"/>
+        <Button
+            x:Name="AddToOrder" Text="Add to Order" BackgroundColor="Orange" TextColor="Black" FontAttributes="Bold"
+                    Clicked="addToOrderButton_Clicked" WidthRequest="300" VerticalOptions="End"/>
+    </VerticalStackLayout>
+</ContentPage>

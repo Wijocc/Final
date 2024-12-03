@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Final.SubPagesOther.Drinks"
+             Title="Drinks">
+    <VerticalStackLayout>
+        <Label 
+            Text="Drinks"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button x:Name="Coke" Text="Coke" BackgroundColor="DarkTurquoise" TextColor="Black" FontAttributes="Bold"
+        Clicked="cokeButton_Clicked" WidthRequest="300" VerticalOptions="End" />
+        <Button x:Name="Pepsi" Text="Pepsi" BackgroundColor="DarkTurquoise" TextColor="Black" FontAttributes="Bold"
+        Clicked="pepsiButton_Clicked" WidthRequest="300" VerticalOptions="End" />
+        <Button x:Name="DrPepper" Text="Dr. Pepper" BackgroundColor="DarkTurquoise" TextColor="Black" FontAttributes="Bold"
+        Clicked="drpepperButton_Clicked" WidthRequest="300" VerticalOptions="End" />
+    </VerticalStackLayout>
+</ContentPage>

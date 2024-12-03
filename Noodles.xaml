@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Final.SubPagesOther.Noodles"
+             Title="Noodles">
+    <VerticalStackLayout>
+        <Label 
+            Text="Noodles"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button x:Name="Chickenn" Text="Chicken" BackgroundColor="DarkTurquoise" TextColor="Black" FontAttributes="Bold"
+        Clicked="chickennButton_Clicked" WidthRequest="300" VerticalOptions="End" />
+        <Button x:Name="Beefn" Text="Beef" BackgroundColor="DarkTurquoise" TextColor="Black" FontAttributes="Bold"
+        Clicked="beefnButton_Clicked" WidthRequest="300" VerticalOptions="End" />
+        <Button x:Name="Shrimpn" Text="Shrimp" BackgroundColor="DarkTurquoise" TextColor="Black" FontAttributes="Bold"
+        Clicked="shrimpnButton_Clicked" WidthRequest="300" VerticalOptions="End" />
+    </VerticalStackLayout>
+</ContentPage>
